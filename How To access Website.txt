@@ -1,0 +1,10 @@
+Step 1 : Download Node.js
+Step 2 : Download MySQL Workbench to access database
+Step 3 : Open file in VS CODE
+Step 4 : Run new terminal
+step 5 : Type Node server.js
+to open Website
+
+Step 6 : Enter Username : admin
+	 Enter Password : 123
+COMPLETE!

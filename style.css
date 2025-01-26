@@ -1,0 +1,84 @@
+section {
+    padding: 40px 20px;
+}
+
+/* General Styles */
+body {
+    font-family: "Arial", sans-serif;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url("https://via.placeholder.com/1200x500") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+    z-index: 1;
+}
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+  
+  /* Pet Care Section */
+#cats {
+    background-color: #f9f9f9;
+}
+#dogs {
+    background-color: #ffffff;
+}
+#birds {
+    background-color: #f9f9f9;
+}
+#guinea-pigs {
+    background-color: #ffffff;
+}
+
+  #cats,
+  #dogs,
+  #birds,
+  #guinea-pigs {
+    padding: 60px 0;
+  }
+  
+  #cats img,
+  #dogs img,
+  #birds img,
+  #guinea-pigs img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
